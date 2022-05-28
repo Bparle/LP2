@@ -1,0 +1,15 @@
+  console.log("Name: Yogesh Borhade");
+  console.log("Class: TE");
+  console.log("Subject: LP-II Web Application Development");
+  console.log("We are implementing Assignment-2B")
+
+  FROM node: alpine
+  COPY . /partb
+  CMD node /partb/yogesh.js
+
+
+
+  docker --version
+node yogesh.js
+docker build -t partb
+docker images
